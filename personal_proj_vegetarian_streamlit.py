@@ -37,6 +37,8 @@ def load_data():
 
 restaurants_df, malls_df, mapping_df, meta_df = load_data()
 
+restaurants_df["Remarks"] = restaurants_df["Remarks"].fillna("")
+
 last_updated = meta_df.loc[
     meta_df["Key"] == "last_updated", "Value"
 ].values[0]
