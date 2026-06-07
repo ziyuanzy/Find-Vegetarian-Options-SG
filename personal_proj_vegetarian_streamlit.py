@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title = 'Restaurants with Vegetarian Options', layout = 'wide')
+st.set_page_config(page_title = 'Veg Go Where?', layout = 'wide')
 
 # data
 SHEET_ID = "10UpuaSE9N5Zc4cOxvNaXYlwyeMULvFRIhpuaPmUXXk4"
