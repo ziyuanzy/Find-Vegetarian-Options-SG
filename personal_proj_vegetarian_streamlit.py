@@ -42,11 +42,11 @@ last_updated = meta_df.loc[
 ].values[0]
 
 st.title('Veg Go Where? Find Vegetarian Options')
-st.caption('Find vegetarian-friendly dining options across malls in Singapore. \n Use filters or browse by mall to explore restaurants easily.')
+st.caption('Find vegetarian-friendly dining options across selected malls in Singapore. \n Use filters or browse by mall to explore restaurants easily.')
 
 # filter by area sidebar
 st.sidebar.caption(
-    "This list is non-exhaustive and will be updated over time. "
+    "This list is non-exhaustive and will be updated over time. More malls will be added in time to come. "
     "While efforts have been made to ensure accuracy, some information may not be fully up to date or complete."
 )
 st.sidebar.caption(f"Last updated: {last_updated}")
