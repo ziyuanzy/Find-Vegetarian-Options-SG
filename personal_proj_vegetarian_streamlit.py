@@ -42,7 +42,7 @@ last_updated = meta_df.loc[
     meta_df["Key"] == "last_updated", "Value"
 ].values[0]
 
-st.title('Find Vegetarian Options')
+st.title('Veg Go Where? Find Vegetarian Options')
 st.caption('Find vegetarian-friendly dining options across malls in Singapore. \n Use filters or browse by mall to explore restaurants easily.')
 
 # filter by area sidebar
