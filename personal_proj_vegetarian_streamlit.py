@@ -46,7 +46,7 @@ st.caption('Find vegetarian-friendly dining options across selected malls in Sin
 
 # filter by area sidebar
 st.sidebar.caption(
-    "This list is non-exhaustive and will be updated over time. More malls will be added in time to come. "
+    "This is a non-exhaustive list that will be updated regularly. More malls will be added in time to come. "
     "While efforts have been made to ensure accuracy, some information may not be fully up to date or complete."
 )
 st.sidebar.caption(f"Last updated: {last_updated}")
